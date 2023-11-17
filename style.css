@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "gilroy";
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: #D0D4D5;
+  position: relative;
+}
+
+#nav {
+  height: 110px;
+  padding: 0 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#nav img {
+  height: 40px;
+  margin-right: 100px;
+  margin-left: 50px;
+}
+
+#nav-part1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#nav-part1 h4 {
+  margin-right: 55px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#nav-part1 h4:hover{
+    cursor: pointer;
+}
+
+
+
+#nav-part2 i {
+  margin-right: 70px;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+#nav-part2 i:hover{
+    cursor: pointer;
+}
+
+#content {
+  width: 100%;
+  height: calc(100% - 110px);
+  position: relative;
+  display: flex;
+}
+
+#left {
+  width: 40%;
+  height: 100%;
+  padding: 120px 150px;
+}
+
+#left h5 {
+  font-size: 25px;
+  color: #535353;
+  margin-bottom: 20px;
+}
+
+#left h1 {
+  font-size: 80px;
+  line-height: 80px;
+  margin-bottom: 30px;
+  font-family: "gilroy";
+}
+
+#left p {
+  font-size: 15px;
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+#left button {
+  background-color: #0b0b0b;
+  color: #fff;
+  font-size: 19px;
+  padding: 15px 45px;
+  border-radius: 5px 50px 50px 50px;
+}
+
+#left button:hover{
+    background-color: #333;
+    cursor: pointer;
+}
+
+#right {
+  height: 100%;
+  width: 60%;
+  /* background-color: red; */
+  position: relative;
+  padding: 120px;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.elem {
+  height: 500px;
+  width: 320px;
+  background-color: #fff;
+  position: relative;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  margin-right: 20px;
+  display: inline-block;
+}
+
+.elem img {
+  margin: 80px 40px 80px 40px;
+  height: 270px;
+  top: 1%;
+  right: 2%;
+  /* bottom: 10%; */
+  object-fit: cover;
+  position: absolute;
+}
+
+.elem h4{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #D0D4D5;
+    padding: 17px 34px;
+    border-radius: 6px;
+}
+
+.elem h5{
+    position: absolute;
+    bottom: 10.5%;
+    right: 0;
+    background-color: #000;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 17px 34px;
+    border-radius: 6px;
+}
